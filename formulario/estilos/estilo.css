@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: black;
+    background-color: #dddddd;
+    margin: 30px;
+}
+
+/* FORMULARIO*/
+form {
+    background-color: #ffcc99; 
+    width: 420px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid #000000;
+}
+
+/*TÍTULO PRINCIPAL*/
+h1 {
+    background-color: orange;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+/*CELDAS DE LAS ETIQUETAS PRINCIPALES*/
+.label-celda {
+    background-color: brown;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.label-celda-sub {
+    background-color: brown;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.subtabla {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.contenido-celda {
+    vertical-align: top;
+    padding: 8px;
+}
+
+/*CAMPOS DE TEXTO, ÁREAS, LISTAS*/
+input[type="text"], select, textarea {
+    font-size: 12px;
+    margin: 5px;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+
+/*BOTONES*/
+.botones {
+    text-align: center;
+    padding-top: 10px;
+}
+
+textarea {
+    resize: none;        /* no se puede agrandar con el ratón */
+}

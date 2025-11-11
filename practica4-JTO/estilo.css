@@ -1,0 +1,77 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: black;
+    margin: 0 auto;
+    background-color: #E9ECFC;
+    width: 800px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-align: right;
+    border-bottom: 1px solid blue;
+}
+
+ol {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 14px;
+    color: blue;
+    background-color: yellow;
+    border: 2px dashed blue;
+    text-align: left;
+    width: 40%;
+    margin: 20px 0 20px 50px;
+    padding: 20px 50px;
+}
+
+.parrafo {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.precio {
+    color: red;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.logo_div {
+    text-align: center;
+    margin: 20px 0;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo_div img {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.parrafos { display: flex; align-items: flex-start; margin: 20px 0; gap: 20px;}
+
+.imagen-parrafo { width: 120px; height: 80px; flex-shrink: 0;}

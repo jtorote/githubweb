@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de pizza</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+
+
+    <form name="pedidoPizza" method="POST">
+        <table>
+                <h1>- Pedido de pizza -</h1>
+            <!-- Nombre -->
+            <tr>
+                <td class="label-celda"><label for="nombre">Nombre</label></td>
+                <td><input type="text" id="nombre" name="nombre" size="30"></td>
+            </tr>
+
+            <!-- Dirección -->
+            <tr>
+                <td class="label-celda"><label for="direccion">Dirección</label></td>
+                <td><input type="text" id="direccion" name="direccion" size="30"></td>
+            </tr>
+
+            <!-- Ingredientes, Tamaño y Forma de pago -->
+            <tr>
+                <td colspan="2">
+                    <table class="subtabla">
+                        <tr>
+                            <td class="label-celda-sub">Ingredientes</td>
+                            <td class="label-celda-sub">Tamaño</td>
+                            <td class="label-celda-sub">Forma de pago</td>
+                        </tr>
+                        <tr>
+                            <td class="contenido-celda">
+                                <input type="checkbox" name="ingredientes" value="queso"> Queso <br>
+                                <input type="checkbox" name="ingredientes" value="pimiento"> Pimiento <br>
+                                <input type="checkbox" name="ingredientes" value="cebolla"> Cebolla
+                            </td>
+
+                            <td class="contenido-celda">
+                                <input type="radio" name="tamano" value="pequena"> Pequeña <br>
+                                <input type="radio" name="tamano" value="mediana"> Mediana <br>
+                                <input type="radio" name="tamano" value="grande"> Grande
+                            </td>
+
+                            <td class="contenido-celda">
+                                <select name="pago">
+                                    <option value="visa">Visa</option>
+                                    <option value="mastercard">MasterCard</option>
+                                    <option value="efectivo">Efectivo</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Instrucciones especiales -->
+            <tr>
+                <td colspan="2" class="label-celda-sub">Instrucciones especiales</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea id="instrucciones" name="instrucciones" rows="5" cols="60" placeholder="Escribe tus instrucciones aquí..."></textarea>
+                </td>
+            </tr>
+
+            <!-- Botones -->
+            <tr>
+                <td colspan="2" class="botones">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

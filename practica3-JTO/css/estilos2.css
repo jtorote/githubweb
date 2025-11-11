@@ -1,0 +1,71 @@
+body {
+    background-color: #ffffcc; /* Fondo amarillo claro */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Encabezado */
+h1 {
+    background-color: black;
+    color: red;
+    padding: 10px;
+    font-size: 32px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* ---- MENÚ DE NAVEGACIÓN ---- */
+nav {
+    overflow: hidden; /* Ajusta el alto automáticamente */
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: #d9d9d9;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #888;
+}
+
+/* Lista sin viñetas (menú horizontal) */
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+/* Elementos del menú alineados horizontalmente */
+nav ul li {
+    float: left;
+    margin-left: 5px;
+}
+
+/* ---- ESTILO DE LOS ENLACES (ORDEN OBLIGATORIO) ---- */
+
+/* a:link → estilo base */
+nav ul li a:link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: #d9d9d9;
+    padding: 8px 15px;
+}
+
+/* a:visited → mismo estilo que link */
+nav ul li a:visited {
+    color: black;
+    background-color: #d9d9d9;
+}
+
+/* a:hover → estilo cuando el ratón pasa por encima */
+nav ul li a:hover {
+    background-color: red;
+    color: white;
+}
+
+/* ---- ENLACE ACTIVO ---- */
+nav ul li a.activo {
+    background-color: red;
+    color: white;
+}

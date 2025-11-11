@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    color: black;
+    margin: 20px;
+    background-color: #DFF5FD;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid darkblue;
+    border-bottom: 1px solid darkblue;
+    margin: 20px auto;
+    width: 70%;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0B3861;
+}
+
+.TimesRojo {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.TimesVerde {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+}
+
+#recuadro{
+background-color: #F5A9A9;
+font-size: 14px;
+color: #74030A;
+font-family: Arial, Times, sans-serif;
+border: solid 3px;
+padding: 15px;
+margin:20px auto 20px auto;
+width: 50%; /*utiliza porcentajes para que se adapte a la resolución*/
+border-radius: 25px; /*borde redondeado*/
+box-shadow: 2px 2px 5px black; /*sombra*/
+}
+
+#formacion {
+    background-color: #A9D0F5;
+    font-size: 14px;
+    color: #0B3861;
+    font-family: Arial, Times, sans-serif;
+    border: dotted 2px #0B3861;
+    padding: 15px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+ol {
+    padding-left: 30px;
+}

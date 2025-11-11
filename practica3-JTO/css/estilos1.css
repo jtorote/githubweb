@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    color: black;
+    margin: 20px;
+    background-color: #d1d1d1;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid darkblue;
+    border-bottom: 1px solid darkblue;
+    margin: 20px auto;
+    width: 70%;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+a {
+    font-size: 16px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+#recuadro{
+background-color: #F5A9A9;
+font-size: 14px;
+color: #74030A;
+font-family: Arial, Times, sans-serif;
+border: solid 3px;
+padding: 15px;
+margin-left: 200px;
+width: 10%; /*utiliza porcentajes para que se adapte a la resolución*/
+border-radius: 25px; /*borde redondeado*/
+box-shadow: 2px 2px 5px black; /*sombra*/
+}
+
+#formacion {
+    background-color: #A9D0F5;
+    font-size: 14px;
+    color: #0B3861;
+    font-family: Arial, Times, sans-serif;
+    border: dotted 2px #0B3861;
+    padding: 15px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+ol {
+    padding-left: 30px;
+}
+
+ nav{
+ overflow:hidden; /* en lugar de configurar el alto se utiliza este atributo que lo estable    dependiendo el contendio*/
+ /*Estable el ancho, borde, tipo de letra, márgenes, padding , color de fondo, sombra, esquinas redondeadas,
+ etc todas las características que vas necesarias*/
+ }
+
+/* Cada opción del menú */
+nav ul li {
+    margin-bottom: 10px; /* espacio vertical entre opciones */
+}
+
+/* Estilo de los enlaces */
+nav ul li a {
+    display: block; /* hace que el enlace ocupe todo el li */
+    padding: 5px 10px; /* espacio interno */
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+
+
+ 
