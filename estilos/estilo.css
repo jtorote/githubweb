@@ -9,7 +9,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #0044cc;
+    background-color: #00cc44;
     color: white;
     text-align: center;
     padding: 2rem 1rem;
@@ -33,7 +33,7 @@ main {
 }
 
 h2 {
-    border-bottom: 3px solid #0044cc;
+    border-bottom: 3px solid #00cc44;
     display: inline-block;
     padding-bottom: 0.5rem;
 }
@@ -50,7 +50,7 @@ li {
 /* Enlaces */
 a {
     text-decoration: none;
-    color: #0044cc;
+    color: #00cc44;
     font-weight: bold;
     transition: color 0.3s, transform 0.2s;
 }
